@@ -1,9 +1,9 @@
-[submodule "LabWiFi/LabWiFi"]
-	path = LabWiFi
-	url = https://github.com/WDCSecure/LabWiFi
-[submodule "LabGNSS/LabGNSS"]
+[submodule "LabGNSS"]
 	path = LabGNSS
 	url = https://github.com/WDCSecure/LabGNSS
+[submodule "LabWiFi"]
+	path = LabWiFi
+	url = https://github.com/WDCSecure/LabWiFi
 [submodule "WD2DCS-Labs-peer-grading"]
 	path = WD2DCS-Labs-peer-grading
 	url = https://github.com/eliainnocenti/WD2DCS-Labs-peer-grading
