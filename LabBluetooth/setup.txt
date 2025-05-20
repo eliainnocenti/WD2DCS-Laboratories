@@ -1,0 +1,31 @@
+--- Student name
+Name: Elia
+Lastname: Innocenti
+Matricola: s345388
+
+---- Device information
+Device Name: MX Master
+Device Vendor: Logitech
+Eventual configuration: Factory defaults
+
+---- Device used for capturing packets
+Operating System: macOS 15.5 "Sequoia"
+BT adapter model: 
+    • Chipset: BCM_4378
+    • Vendor ID: 0x004C (Apple)
+    • Firmware Version: 22.5.539.3931
+Eventual configuration:
+    • PacketLogger Version 2024.03.18 (Additional Tools for Xcode) [https://download.developer.apple.com/Developer_Tools/Additional_Tools_for_Xcode_16.3/Additional_Tools_for_Xcode_16.3.dmg]
+    • Bluetooth Logging Profile [https://download.developer.apple.com/OS_X/OS_X_Logs/Bluetooth_macOS.mobileconfig]
+
+---- Notes
+Note1:
+    Test procedure:
+        1. Both devices (MacBook Air and Logitech MX Master mouse) were placed within 1 meter of each other.
+        2. Waited for the mouse to become visible/discoverable.
+        3. Paired the mouse with the MacBook Air.
+        4. Performed several mouse movements to generate activity.
+        5. Disconnected the mouse from the MacBook Air.
+        6. Reconnected the mouse without repeating the pairing process.
+        7. Performed additional mouse movements.
+        8. Finally, disconnected and removed (forgot) the mouse from the MacBook Air.

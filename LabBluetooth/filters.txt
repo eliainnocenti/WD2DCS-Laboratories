@@ -1,0 +1,25 @@
+# Bluetooth Packet Filters
+
+==============
+Advertisement:
+==============
+
+bthci_evt.bd_addr == C7:4A:39:BE:64:91
+
+==============
+Scan:
+==============
+
+(_ws.col.protocol == "HCI_CMD" || _ws.col.protocol == "HCI_EVT") && (_ws.col.def_src == "host")
+
+==============
+Pairing:
+==============
+
+bluetooth.addr == C7:4A:39:BE:64:91 && _ws.col.protocol == "SMP"
+
+==============
+Data Exchange:
+==============
+
+bluetooth.addr == C7:4A:39:BE:64:91 && _ws.col.protocol == "ATT"
